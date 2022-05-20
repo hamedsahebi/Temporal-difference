@@ -159,7 +159,7 @@ if __name__ == "__main__":
         monitor_dir = './' + filename + '_' + str(datetime.now())
         env = wrappers.Monitor(env, monitor_dir)
 
-    N = 500
+    N = 350
     total_rewards = np.empty(N)
 
     for n in range(N):
